@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+env/
+.env
+
+# IDEs
+.vscode/
+.idea/
+
+# Streamlit
+.streamlit/secrets.toml
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Data
+*.csv
+*.xlsx
+*.json
+# (exclude config JSONs if any, but ignore data JSONs)
+!metadata.json
+
+# Streamlit
+# secrets.toml is already ignored above, but good to double check
+
